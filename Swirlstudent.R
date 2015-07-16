@@ -11,4 +11,4 @@ install_from_swirl("Data Analysis")
 install.packages("dplyr")#当swirl不能正确安装dplyr时，运行该命令。
 library("dplyr")#每次进入R后要run一次。
 
-library(dplyr)
+library(dplyr)#要注意是否package name 要加双引号
